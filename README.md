@@ -24,7 +24,7 @@ This project fetches quotes from:
 
 ## 🚀 Live Demo
 The project is hosted on **Netlify**:  
-🔗 [Random Quote Generator](https://quoteauthor.netlify.app/)  
+🔗 [Random Quote Generator](https://serene-daffodil-935092.netlify.app/)  
 
 ---
 
