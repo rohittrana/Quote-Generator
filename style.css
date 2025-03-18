@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Top Bar */
+#TopBar {
+  text-align: center;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+}
+
+/* Main Content */
+#MainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* class card second div and inner content*/
+.card{
+               background-color: #34495e;
+}
+
+/* Button Container */
+#buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Button */
+#change-quote {
+  background-color: orange;
+  border-style: none;
+  height: 40px;
+  width: 150px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#change-quote:hover {
+  background-color: rgb(213, 75, 11);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #MainContent {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  #change-quote {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  #MainContent {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #change-quote {
+    width: 70%;
+  }
+}
