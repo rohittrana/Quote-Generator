@@ -45,7 +45,7 @@ body {
 
 /* class card second div and inner content*/
 .card{
-               background-color: #34495e;
+               background-color:#2f3640;
 }
 
 /* Button Container */
@@ -70,6 +70,10 @@ body {
 
 #change-quote:hover {
   background-color: rgb(213, 75, 11);
+}
+
+#twitter-share{
+               border-radius: 10px;
 }
 
 /* Responsive Design */

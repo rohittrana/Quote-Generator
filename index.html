@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quote</title>
+               <meta charset="UTF-8" />
+               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+               <title>Random Quote</title>
+               <link rel="stylesheet" href="style.css" />
 </head>
-<!-- css added here  -->
-<link rel="stylesheet" href="style.css">
+
 <body>
-      <!-- three div i made first one is for navbar you can say 
-      second one is for the value quote and author 
-      third one is for button  -->
+               <!-- Navbar -->
+               <div id="TopBar">
+                              <h2>Random Quote Generator</h2>
+               </div>
 
-      <!-- first div -->
-    <div  id="TopBar">
-        <h2>Random Quote Generator</h2>
+               <!-- Quote Container -->
+               <div class="card" id="MainContent">
+                              <!-- Copy Button -->
+                              <button id="copy-quote">📋</button>
+                              <h4 class="card" id="Quote-Add"></h4>
+                              <h3 class="card" id="author"></h3>
 
-    </div>
+                              <p id="copy-message" style="display: none; color: lightgreen">
+                                             ✔ Quote copied!
+                              </p>
 
-    <!-- // second div -->
-    <div class="card" id="MainContent">
-        <h4 class="card" id="Quote-Add">Quote: Click the button to get a quote!</h4>
-        <h3 class="card" id="author">Author: </h3>
-        
-    </div>
+                              <!-- Twitter Share Button -->
+                              <a id="twitter-share" href="#" target="_blank">
+                                             <img src="https://abs.twimg.com/favicons/twitter.ico" alt="Twitter"
+                                                            width="30px" />
+                              </a>
+               </div>
 
+               <!-- Buttons -->
+               <div id="buttonDiv">
+                              <button id="change-quote">Change Quote</button>
+               </div>
 
-    <!-- // third div -->
-    <div id="buttonDiv">
-               <button id="change-quote">Change Quote</button>
-    </div>
-  
-    <script src="index.js">
-    </script>
+               <script src="index.js"></script>
 </body>
+
 </html>
